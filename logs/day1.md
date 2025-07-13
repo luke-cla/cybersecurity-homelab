@@ -12,15 +12,9 @@ Begin building a segmented cybersecurity homelab by configuring a Raspberry Pi 3
 - Old Acer laptop (used to flash the SD card and run SSH)
 
 ## Software Installed on Pi 3
-- Raspberry Pi OS Lite (minimal headless install)
+- Raspberry Pi OS Lite
 - OpenCanary (lightweight honeypot framework)
-- Core tools for management and testing:
-  - `git` – version control
-  - `curl` – transfer data via URLs (used to fetch packages)
-  - `vim` – terminal-based text editor
-  - `htop` – real-time system process monitor
-  - `net-tools` – legacy networking tools like `ifconfig`
-  - `nmap` – network scanning and port discovery
+- Core tools for management and testing `nmap`, `net-tools`, `vim`, `curl`, `htop`
 
 ## Network Configuration
 - Static IP assigned on local subnet
@@ -28,7 +22,7 @@ Begin building a segmented cybersecurity homelab by configuring a Raspberry Pi 3
 - SSH access verified over Ethernet
 
 ## OpenCanary Setup
-- Installed via `pip` in a virtual environment
+- Installed with `pip` in a virtual environment
 - Custom `opencanary.conf` file created and edited
 - Enabled select services (e.g., HTTP, FTP) to simulate a vulnerable target
 - Disabled SSH to avoid conflicts with actual remote access
