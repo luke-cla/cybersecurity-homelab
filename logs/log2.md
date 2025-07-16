@@ -18,7 +18,6 @@ Configure Raspberry Pi 5 (8GB) to serve as both a local attacker machine and a f
 ## Network Configuration
 - Connected via Ethernet to home router
 - Assigned static ip on local subnet
-- SSH verified from local machine
 
 ## Next Steps
 - Decide on SIEM tool
